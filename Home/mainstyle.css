@@ -13,13 +13,13 @@
   /* Header/Blog Title */
   .header {
     display:flex;
-    padding: 30px;
-    text-align: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
     background: rgba(24, 103, 109, 0.2);
   }
   
   .header h1 {
-    padding: 80px 0px 0px 80px;
     font-size: 50px;
     position:absolute;
     color: rgba(249, 252, 253, 0.993);
