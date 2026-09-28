@@ -12,17 +12,16 @@
   
   /* Header/Blog Title */
   .header {
-    display:static;
-    padding: 30px;
-    text-align: center;
+    display:flex;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
     background: rgba(24, 103, 109, 0.2);
   }
   
   .header h1 {
-    float:center;
-    padding: 0px 0px 0px 0px;
-    font-size: 50px;
-    position:static;
+    font-size: 45px;
+    position:absolute;
     color: rgba(249, 252, 253, 0.993);
     text-shadow:2px 2px #021924;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -117,27 +116,24 @@
   .dropdown:hover .dropdown-content {
     display:block;
   }
-  
-  /* Create three unequal columns that floats next to each other */
-  /* Center column */
-  .centercolumn {
+  /* Create two unequal columns that floats next to each other */
+  /* Right column */
+  .rightcolumn {
     float:left;
     width:25%;
     background-color: rgba(24, 103, 109, 0.2);
-    padding-right: 20px;
   }
 
-  /* Right column*/
-  .rightcolumn {
-    position: static;
-    float:left;
+  /* Left column*/
+  .leftcolumn {
+    float: left;
     width: 25%;
     background-color: rgba(24, 103, 109, 0.2);
-    padding-right: 0px;
+    padding-right: 20px;
   }
   
   /* Left column */
-  .leftcolumn {   
+  .centercolumn {   
     float: left;
     width: 50%;
   }
@@ -149,7 +145,7 @@
     padding: 20px;
   }
   /* image */
-   .center img{
+  .center img{
     width: 100%;
     height: inherit;
     padding: 20px;
