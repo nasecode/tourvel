@@ -21,7 +21,7 @@
   .header h1 {
     padding: 80px 0px 0px 80px;
     font-size: 50px;
-    position:relative;
+    position:absolute;
     color: rgba(249, 252, 253, 0.993);
     text-shadow:2px 2px #021924;
     font-family: "Lucida Console", "Courier New", monospace;
