@@ -178,6 +178,7 @@
   .row p{
     font-style: italic;
     font-weight:bold;
+    font-size: 20px;
   }
   
   /* Clear floats after the columns */
