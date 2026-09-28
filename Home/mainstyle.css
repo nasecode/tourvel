@@ -5,7 +5,7 @@
   body {
     background-image: url(Background.jpg);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     font-family: Arial;
     padding: 10px;
   }
