@@ -207,3 +207,7 @@
     color: #eeeeee;
     margin: 0px 100px 0px 100px;
   }
+@media screen and (max-aspect-ratio: 3/5)
+  .topnav {
+    font-size:xx-large;
+  }
