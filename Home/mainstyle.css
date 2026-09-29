@@ -211,7 +211,7 @@
     .topnav, topnav p, .dropdown .dropbtn{
         font-size:xx-large
     }
-    .dropdown content{
+    .dropdown-content{
         margin-top: 20px;
     }
 }
