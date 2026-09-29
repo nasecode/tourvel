@@ -209,7 +209,7 @@
   }
 @media screen and (max-aspect-ratio: 3/5){
     .topnav, .topnav p, .dropdown .dropbtn{
-        font-size:xx-large;
+        font-size:x-large;
     }
     .dropdown-content{
         margin-top: 20px;
